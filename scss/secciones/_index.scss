@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(233, 237, 241);
+}
+
+header{
+    nav{
+        .container{
+            div{
+                .d-flex{
+                    .btn-outline-success{
+                        border-color: rgb(66, 128, 134);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main-index{
+
+    .h3-sucursal{
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 10px;
+        background-color: rgb(190, 202, 221);
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(to right, rgb(160, 193, 194), rgb(233, 237, 241));
+    }
+    
+    .div-local{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .img-local{
+            width: 575px;
+            height: 300px;
+            margin-left: 40px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            border-radius: 20px;
+        }
+        
+        .mapa-iframe{
+            width: 575px;
+            height: 300px;
+            margin-right: 50px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            border-radius: 20px;
+        }
+    }
+    .carousel{
+        .carousel-inner{
+            div{
+                .d-block{
+                height: 400px;
+                width: 95%;
+                margin-top: 15px;
+                margin-left: 30px;
+                margin-right: 10px;
+                }
+            }
+        }
+    }
+    
+    .containerFigure{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-around;
+        
+        .figure{
+            border-style: groove;
+            border-color: rgb(91, 191, 204);
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            padding-left: 10px;
+            padding-right: 10px;  
+            &:hover{
+                transform: scale(1.05);
+                transition: 0.5s;
+            }
+    
+            .figure-img{
+                width: 200px;
+                height: 300px;
+            }
+    
+            .figure-caption{
+                display: flex;
+                justify-content: center;
+            }
+            
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+    
+    .h3-libros{
+        margin-left: 30px;
+        margin-right: 35px;
+        margin-top: 10px;
+        background-color: rgb(160, 193, 194);
+        background-image: linear-gradient(to right, rgb(160, 193, 194), rgb(233, 237, 241));
+        
+    }
+    
+    .button{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 60px;
+        margin-bottom: 10px;
+    
+        .btn{
+            background-color: rgb(91, 191, 204);
+            color: white;
+            &:hover{
+                background-color: rgb(35, 78, 83);
+            }
+        }
+        .btn-success{
+            border-color: rgb(66, 128, 134);
+        }
+    }
+}

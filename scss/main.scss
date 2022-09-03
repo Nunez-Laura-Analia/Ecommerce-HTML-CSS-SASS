@@ -1,0 +1,14 @@
+//VARIABLES
+@import './variables/extend';
+@import './variables/mixin'; 
+
+//IMPORTACIONES
+@import './header-footer/header';
+@import './header-footer/footer';
+@import './secciones/index';
+@import './secciones/nosotros';
+@import './secciones/sucursales';
+@import './secciones/productos';
+@import './media-queris/media-queris';
+@import './header-footer/header';
+@import './secciones/carrito.scss';

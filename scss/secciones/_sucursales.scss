@@ -1,0 +1,47 @@
+.main-sucursales{
+    .h3-libros{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 10px;
+        background-color: rgb(160, 193, 194);;
+        background-image: linear-gradient(to right, rgb(160, 193, 194), rgb(233, 237, 241));
+    }
+
+   .figure-sucursales{
+        border-style: groove;
+        border-color: rgb(188, 221, 224);
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px; 
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 60px;
+        margin-right: 60px;
+
+        .sucursales{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 15px;  
+        
+            .figure-img-sucursales{
+                height: 300px;
+                width: 500px;
+            }
+
+            iframe{
+                height: 300px;
+                width: 500px;
+            }
+        }
+        .info-sucursales{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            } 
+        }    
+    }
+}
